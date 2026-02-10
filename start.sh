@@ -1,1 +1,1 @@
-gunicorn Social_Network_Ad_Conversion.wsgi:application
+gunicorn Social_Network_Ad_Conversion_Prediction.wsgi:application
