@@ -67,6 +67,8 @@ COLLEGE-ML-PROJECT
 ├── predictor/
 │   ├── views.py
 │   ├── urls.py
+|   ├── model.pkl
+|   ├── scaler.pkl
 │
 ├── Social_Network_Ad_Conversion_Prediction/
 │   ├── settings.py
@@ -76,8 +78,6 @@ COLLEGE-ML-PROJECT
 ├── templates/
 │   └── predict.html
 │
-├── model.pkl
-├── scaler.pkl
 ├── requirements.txt
 ├── start.sh
 ├── build.sh
