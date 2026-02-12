@@ -29,9 +29,9 @@ def predict_view(request):
 
             probability = round(prob * 100 ,2)
             if pred == 1:
-                result = "Customer Will Purches"
+                result = "Customer Will Purchase"
             else :
-                result = "Customer will not Purches"
+                result = "Customer will not Purchase"
             
     else:
         form = PredictionForm()
